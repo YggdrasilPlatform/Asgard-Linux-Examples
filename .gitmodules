@@ -1,0 +1,6 @@
+[submodule "blinky/subprojects/libyggdrasil"]
+	path = blinky/subprojects/libyggdrasil
+	url = https://gitlab.ti.bfh.ch/yggdrasil/libyggdrasil
+[submodule "sensors/subprojects/libyggdrasil"]
+	path = sensors/subprojects/libyggdrasil
+	url = https://gitlab.ti.bfh.ch/yggdrasil/libyggdrasil
