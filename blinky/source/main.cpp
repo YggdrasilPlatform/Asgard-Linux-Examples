@@ -11,6 +11,8 @@ int main() {
 		running = false;
 	});
 
+	yggdrasil_init();
+
 	// Initialize GPIO pins
 	bsp::LDA.init();
 	bsp::LDB.init();

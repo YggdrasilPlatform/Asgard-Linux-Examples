@@ -4,12 +4,8 @@
 
 int main() {
 
-	bsp::I2CA::init();
+	yggdrasil_init();
 	ON_SCOPE_EXIT { bsp::I2CA::deinit(); };
-
-	bsp::ygg::prph::ColorSensor::init();
-	bsp::ygg::prph::HumiditySensor::init();
-	bsp::ygg::prph::SixAxisSensor::init();
 
 	bsp::ygg::prph::ColorSensor::enable();
 	bsp::ygg::prph::ColorSensor::startConversion();
